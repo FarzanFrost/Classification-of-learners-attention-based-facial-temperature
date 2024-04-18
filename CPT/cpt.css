@@ -1,0 +1,14 @@
+/* Center the container both horizontally and vertically */
+.cpt-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh; /* Make the container take up the entire viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+/* Style the text to make it as big as possible */
+.center-text {
+    font-size: 20vw; /* Responsive font size based on viewport width */
+    text-align: center;
+}

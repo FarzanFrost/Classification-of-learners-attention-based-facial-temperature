@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cpt.css">
+    <title>Basic HTML Form</title>
+</head>
+<body>
+    <div id="main" style="display: flex;">
+
+        <form id="myForm">
+    
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" required><br><br>
+    
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select><br><br>
+    
+            <label for="anyresearchexperience">Have you participated in any Research Experiments?:</label>
+            <select id="anyresearchexperience" name="anyresearchexperience" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+    
+            <label for="daystarted">How did your day start?:</label>
+            <select id="daystarted" name="daystarted" required>
+                <option value="good">Good</option>
+                <option value="neutral">neutral</option>
+                <option value="bad">bad</option>
+            </select><br><br>
+    
+            <label for="incidentsthataffectyourmood">Were there any incidents that affect your mood?:</label>
+            <select id="incidentsthataffectyourmood" name="incidentsthataffectyourmood" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+    
+            <label for="hoursslept">No of hours  of sleep:</label>
+            <input type="text" id="hoursslept" name="hoursslept" required><br><br>
+    
+            <label for="hadanyfood">Had any food?:</label>
+            <select id="hadanyfood" name="hadanyfood" required>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select><br><br>
+
+            <label for="anyfaceinjuries">Do you have any face injuries?:</label>
+            <select id="anyfaceinjuries" name="anyfaceinjuries" required>
+                <option value="no">No</option>
+                <option value="yes">Yes</option>
+            </select><br><br>
+
+            <label for="roomtemperature">Room temperature:</label>
+            <input type="text" id="roomtemperature" name="roomtemperature" required><br><br>
+    
+            <input type="button" value="Submit" id="submitButton">
+        </form>
+
+    </div>
+
+    <div id="cpt">
+
+        <!-- <H1>Continuous Performance System</H1><br><br> -->
+        <div class="cpt-container">
+            <div class="center-text" id="cpt-content"></div>
+        </div>
+
+    </div>
+
+    <!-- Include the JavaScript file -->
+    <script src="cpt.js"></script>
+</body>
+</html>
